@@ -1,0 +1,93 @@
+.parallax {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header {
+  background-image: url('./assets/bg20.png');
+}
+
+.content {
+  background-image: url('./assets/bg12.png');
+}
+
+.footer {
+  background-image: url('./assets/bg2.png');
+}
+
+.schedule {
+  background-image: url('./assets/bg13.png');
+}
+
+.reason {
+  background-image: url('./assets/bg15.png');
+}
+
+.contact {
+  background-image: url('./assets/bg10.png');
+}
+
+.right-side img {
+  height: 70vh;
+}
+
+.title-intro {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120.752px;
+  line-height: 143px;
+  letter-spacing: -0.03em;
+
+  background: linear-gradient(98.28deg, #EB5757 4.09%, #9B51E0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-intro {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  /* line-height: 143px; */
+  letter-spacing: -0.03em;
+
+  /* background: linear-gradient(98.28deg, #EB5757 4.09%, #9B51E0 100%); */
+  background: linear-gradient(98.28deg, #9B51E0 4.09%, #EB5757 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title-about {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90.752px;
+  line-height: 90px;
+  letter-spacing: -0.03em;
+
+  background: linear-gradient(98.28deg, #EB5757 4.09%, #9B51E0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-about {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  /* line-height: 143px; */
+  letter-spacing: -0.03em;
+
+  /* background: linear-gradient(98.28deg, #EB5757 4.09%, #9B51E0 100%); */
+  background: linear-gradient(98.28deg, #9B51E0 4.09%, #EB5757 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
