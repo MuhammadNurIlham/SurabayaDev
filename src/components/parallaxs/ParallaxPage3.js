@@ -1,5 +1,5 @@
 import React from 'react';
-import VisiMisi from './VisiMisi';
+import VisiMisi from '../menus/VisiMisi';
 
 function ParallaxPage3() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import Introduction from './Introduction';
-import NavigationBar from './NavigationBar';
+import NavigationBar from '../../utils/NavigationBar';
+import Introduction from '../menus/Introduction';
 
 function ParallaxPage1() {
     return (

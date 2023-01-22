@@ -1,5 +1,5 @@
-import React from 'react'
-import Contact from './Contact';
+import React from 'react';
+import Contact from '../menus/Contact';
 
 function ParallaxPage6() {
     return (

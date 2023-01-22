@@ -30,19 +30,19 @@
   background-image: url('./assets/bg10.png');
 }
 
-.right-side img {
-  height: 70vh;
-}
 
 .title-intro {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 120.752px;
+  font-size: 100px;
   line-height: 143px;
   letter-spacing: -0.03em;
+  /* background: linear-gradient(98.28deg, rgba(0,0,0,1) -5%, rgba(5,204,44,1) 50%, rgba(2,202,244,1) 100%); */
 
-  background: linear-gradient(98.28deg, #EB5757 4.09%, #9B51E0 100%);
+  background: -webkit-linear-gradient(to right, #00F260, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00F260, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -53,11 +53,13 @@
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
-  /* line-height: 143px; */
   letter-spacing: -0.03em;
+  /* background: linear-gradient(95.20deg, rgba(2,202,244,1) 0%, rgba(5,204,44,1) 50%, rgba(0,0,0,1) 100%); */
 
-  /* background: linear-gradient(98.28deg, #EB5757 4.09%, #9B51E0 100%); */
-  background: linear-gradient(98.28deg, #9B51E0 4.09%, #EB5757 100%);
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -67,11 +69,14 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 90.752px;
+  font-size: 75px;
   line-height: 90px;
   letter-spacing: -0.03em;
+  /* background: linear-gradient(98.28deg, rgba(0,0,0,1) -5%, rgba(5,204,44,1) 50%, rgba(2,202,244,1) 100%); */
 
-  background: linear-gradient(98.28deg, #EB5757 4.09%, #9B51E0 100%);
+  background: -webkit-linear-gradient(to right, #00F260, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00F260, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -81,13 +86,383 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  /* line-height: 143px; */
+  font-size: 20px;
   letter-spacing: -0.03em;
+  /* background: linear-gradient(95.20deg, rgba(5,147,227,1) 0%, rgba(5,204,44,1) 50%, rgba(0,0,0,1) 100%); */
 
-  /* background: linear-gradient(98.28deg, #EB5757 4.09%, #9B51E0 100%); */
-  background: linear-gradient(98.28deg, #9B51E0 4.09%, #EB5757 100%);
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.title-reason {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+  /* background: linear-gradient(98.28deg, rgba(0,0,0,1) -5%, rgba(5,204,44,1) 50%, rgba(2,202,244,1) 100%); */
+
+  background: -webkit-linear-gradient(to right, #00F260, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00F260, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-reason {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  letter-spacing: -0.03em;
+  /* background: linear-gradient(95.20deg, rgba(5,147,227,1) 0%, rgba(5,204,44,1) 50%, rgba(0,0,0,1) 100%); */
+
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title-contact {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+  /* background: linear-gradient(98.28deg, rgba(0,0,0,1) -5%, rgba(5,204,44,1) 50%, rgba(2,202,244,1) 100%); */
+
+  background: -webkit-linear-gradient(to right, #00F260, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00F260, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-contact {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  letter-spacing: -0.03em;
+  /* background: linear-gradient(95.20deg, rgba(5,147,227,1) 0%, rgba(5,204,44,1) 50%, rgba(0,0,0,1) 100%); */
+
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.created-contact {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -0.03em;
+}
+
+
+/* Table Generation */
+
+.title-table-generation {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: -0.03em;
+  /* background: linear-gradient(95.20deg, rgba(5,147,227,1) 0%, rgba(5,204,44,1) 50%, rgba(0,0,0,1) 100%); */
+
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-table-generation {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: -0.03em;
+  /* background: linear-gradient(95.20deg, rgba(5,147,227,1) 0%, rgba(5,204,44,1) 50%, rgba(0,0,0,1) 100%); */
+
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Table Visi Misi */
+
+.title-table-visimisi {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: -0.03em;
+  /* background: linear-gradient(95.20deg, rgba(5,147,227,1) 0%, rgba(5,204,44,1) 50%, rgba(0,0,0,1) 100%); */
+
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-table-visimisi {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.03em;
+}
+
+/* Table Schedule */
+
+.title-table-schedule {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: -0.03em;
+  /* background: linear-gradient(95.20deg, rgba(5,147,227,1) 0%, rgba(5,204,44,1) 50%, rgba(0,0,0,1) 100%); */
+
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-table-schedule {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.03em;
+}
+
+/* Table Reason */
+
+.title-table-reason {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: -0.03em;
+  /* background: linear-gradient(95.20deg, rgba(5,147,227,1) 0%, rgba(5,204,44,1) 50%, rgba(0,0,0,1) 100%); */
+
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-table-reason {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.03em;
+}
+
+/* ===== Media Query for Responsive Pages ===== */
+
+/* === Laptop === */
+
+@media (max-width: 1366px) {
+
+}
+
+
+/* === Tablet === */
+
+@media (max-width: 768px) {
+  .title-intro {
+    font-size: 70px;
+    line-height: 80px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title-about {
+    font-size: 65px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-intro {
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .text-about {
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+
+}
+
+
+/* === Mobile Phone === */
+
+@media (max-width: 576px) {
+  .title-intro {
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    line-height: 70px;
+  }
+
+  .title-about {
+    font-size: 45px;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .text-intro {
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-about {
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .images-content {
+    width: 60%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .images-content-visimisi {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .images-about {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .title-table-generation {
+    font-size: 14px;
+  }
+
+  .text-table-generation {
+    font-size: 14px;
+  }
+
+  .title-table-visimisi {
+    font-size: 14px;
+  }
+
+  .text-table-visimisi {
+    font-size: 13px;
+  }
+
+  .title-table-schedule {
+    font-size: 15px;
+  }
+
+  .text-table-schedule {
+    font-size: 12px;
+  }
+
+  .images-schedule {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .title-reason {
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .text-reason {
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title-table-reason {
+    font-size: 15px;
+  }
+
+  .text-table-reason {
+    font-size: 12px;
+  }
+
+  .images-contact {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .title-contact {
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .text-contact {
+    font-size: 17px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .created-contact {
+    font-size: 12px;
+  }
+
+  .images-brand {
+    width: 100%;
+    height: 7vh;
+  }
+  
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Reason from './Reason';
+import Reason from '../menus/Reason';
 
 function ParallaxPage5() {
     return (
